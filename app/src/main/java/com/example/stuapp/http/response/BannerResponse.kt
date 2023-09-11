@@ -6,5 +6,11 @@ package com.example.stuapp.http.response
  *@Time 2023/9/2
  */
 data class BannerResponse(
-    var success : Boolean = false
+    var success: Boolean = false,
+    val data: List<ImgData>
+)
+
+data class ImgData(
+    val pid: String = "",
+    val url: String = ""
 )

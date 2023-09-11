@@ -4,9 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools">
 
     <data>
-        <variable
-            name="data"
-            type="com.example.stuapp.data" />
+
     </data>
 
     <androidx.constraintlayout.widget.ConstraintLayout
@@ -17,8 +15,7 @@
         <ImageView
             android:id="@+id/show_img"
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:imgUrl="@{data.getPath}" />
+            android:layout_height="match_parent" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 </layout>
